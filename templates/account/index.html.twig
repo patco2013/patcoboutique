@@ -1,0 +1,18 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Mon compte - Patco Boutique{% endblock %}
+
+{% block content %}
+
+    <h1>Mon compte</h1>
+
+    <p>Bonjour <strong>{{ app.user.firstname }}</strong>, nous sommes ravis de vous revoir</p>
+
+    <br/>
+
+    <a href="{{ path('account_password') }}">Modifier mon mot de passe</a><br/>
+    - Ajouter une adresse<br/>
+    - Mes commandes
+
+
+{% endblock %}

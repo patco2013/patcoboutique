@@ -1,0 +1,20 @@
+.navbar-item-custom, .navbar-item-custom a
+{
+    color: #ffffff;
+
+}
+
+.firstname-mon-compte
+{
+    color: #f26b11;
+}
+
+.footer-custom
+{
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: #bfb7b2;
+    padding-top: 25px;
+}
