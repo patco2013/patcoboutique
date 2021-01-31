@@ -13,6 +13,7 @@ class Cart
         $this->session = $session;
     }
 
+    //Ajout d'un produit au panier / Adding a product to the cart
     public function add($id)
     {
         $cart = $this->session->get('cart');
