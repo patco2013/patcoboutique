@@ -1,0 +1,8 @@
+vich_uploader:
+    db_driver: orm
+
+    mappings:
+        #patco_images:
+        #    uri_prefix: '%app.path.patco_images%'
+        #    upload_destination: '%kernel.project_dir%/public%app.path.patco_images%'
+        #    namer: Vich\UploaderBundle\Naming\UniqidNamer
